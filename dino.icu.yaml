@@ -419,6 +419,11 @@ print:
    type: CNAME
    value: cname.vercel-dns.com.
 
+p-t: # blog
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 qr: # A hack club themed QR code generator
   ttl: 600
   type: CNAME
